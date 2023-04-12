@@ -27,19 +27,19 @@
   '--..' => 'Z'
 }
 
-#first we'll need 3 methods
-#decode a character
+# first we'll need 3 methods
+# decode a character
 def decode_a_character(str)
-	@dictionary[str]
+  @dictionary[str]
 end
 
 decode_a_character('.-')
-#decode a word
+# decode a word
 
-def decode_a_word (str)
+def decode_a_word(str)
   @word_array = []
 
-  #we divide our word into isolated character
+  # we divide our word into isolated character
   simple_character = str.split
   simple_character.each do |i|
     @word_array.push(decode_a_character(i))
@@ -47,4 +47,11 @@ def decode_a_word (str)
 end
 
 decode_a_word('.-')
-#decode the whole message
+# decode the whole message
+def decode(message)
+  decode_mes = ''
+  message.split('   ').each do |word|
+    decode_mes += "#{decode_a_word(word)} "
+  end
+  decode_mes.strip
+end
