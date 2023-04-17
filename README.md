@@ -1,4 +1,4 @@
-# Morse Decoder
+# OOP school library
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -16,9 +16,9 @@
 - [📝 License](#license)
 
 
-# 📖 Morse Decoder <a name="about-project"></a>
+# 📖 OOP school library:Add Person, Student and Teacher classes<a name="about-project"></a>
 
-**Decoder** This is a collaborative project that decodes a letter, word or an entire message.
+**Add Person, Student and Teacher classes** In this project, I started building my school library app. In this initial step, I implemented the classes to represent students and teachers.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -66,12 +66,6 @@ Click on the link to view the Art Summit website.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Shaaibu Suleiman**
-
-- GitHub: [@githubhandle](https://github.com/shaaibu7)
-- Twitter: [@twitterhandle](https://twitter.com/SuleimanShaaibu?t=EAqVJrP59poEb2W46kK9vg&s=09)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shaaibu-suleiman-119271206)
-
 
 👤 **Mladan Ilic**
 
@@ -79,20 +73,13 @@ Click on the link to view the Art Summit website.
 - Twitter: [@Ilic](https://twitter.com/MladanIlic)
 - LinkedIn: [@Ilic] (https://www.linkedin.com/in/mladanilic/)
 
-👤 **Marc Raphael**
-
-- GitHub: [@Marcraphael12](https://github.com/Marcraphael12)
-- Twitter: [@Marcraphael20](https://twitter.com/MarcRaphael20)
-- LinkedIn: [Marc raphael](http://www.linkedin.com/in/marc-raphael-326039204)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Decode messages written in different encrypting techniques**
+- [ ] **Make functional school library**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
