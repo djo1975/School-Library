@@ -31,9 +31,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Decode a letter**
-- **Decode a word**
-- **Decode an entire message**
+- **Add new students or teachers.**
+- **Add new books.**
+- **Save records of who borrowed a given book and when.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -41,7 +41,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click on the link to view the Art Summit website.
+<!-- Click on the link to view the Art Summit website. -->
 
 - [Coming Soon]()
 
@@ -51,10 +51,10 @@ Click on the link to view the Art Summit website.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-- Clone this repo <https://github.com/shaaibu7/Decode-Morse-Message>
+- Clone this repo <https://github.com/djo1975/School-Library.git>
 
   ```bash
-  git clone https://github.com/shaaibu7/Decode-Morse-Message
+  git clone https://github.com/djo1975/School-Library.git
   ```
 
 - On the command line, at the project's root, run `bundle install` to install app dependencies
