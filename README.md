@@ -16,9 +16,11 @@
 - [📝 License](#license)
 
 
-# 📖 OOP school library:Add Person, Student and Teacher classes<a name="about-project"></a>
+# 📖 OOP school library: decorate a classs<a name="about-project"></a>
 
-**Add Person, Student and Teacher classes** In this project, I started building my school library app. In this initial step, I implemented the classes to represent students and teachers.
+**OOP school library: decorate a class** In this project, I used the Decorator design pattern to correct the names of people.
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -41,9 +43,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- Click on the link to view the Art Summit website. -->
 
-- [Coming Soon]()
+- [Coming soon]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
