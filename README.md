@@ -18,7 +18,7 @@
 
 # 📖 OOP school library: set up associations<a name="about-project"></a>
 
-**OOP school library: set up associations** In this project, I am going to finish creating the remaining classes for our school library and create the associations between them.
+**OOP school library: set up associations** In this project, I finished creating the remaining classes for our school library and create the associations between them.
 
 
 ## 🛠 Built With <a name="built-with"></a>
