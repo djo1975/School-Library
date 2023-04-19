@@ -16,9 +16,9 @@
 - [📝 License](#license)
 
 
-# 📖 OOP school library: decorate a classs<a name="about-project"></a>
+# 📖 OOP school library: set up associations<a name="about-project"></a>
 
-**OOP school library: decorate a class** In this project, I used the Decorator design pattern to correct the names of people.
+**OOP school library: set up associations** In this project, I finished creating the remaining classes for our school library and create the associations between them.
 
 
 ## 🛠 Built With <a name="built-with"></a>
