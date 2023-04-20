@@ -16,9 +16,9 @@
 - [📝 License](#license)
 
 
-# 📖 OOP school library: set up associations<a name="about-project"></a>
+# 📖 OOP school library: add basic UI<a name="about-project"></a>
 
-**OOP school library: set up associations** In this project, I finished creating the remaining classes for our school library and create the associations between them.
+**OOP school library: add basic UI** In this project, I created a form of UI for your school library app. This way it can be invoked as an executable and not something you use in IRB exclusively.
 
 
 ## 🛠 Built With <a name="built-with"></a>
