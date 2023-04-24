@@ -18,8 +18,7 @@
 
 # 📖 OOP school library: add basic UI<a name="about-project"></a>
 
-**OOP school library: add basic UI** In this project, I created a form of UI for your school library app. This way it can be invoked as an executable and not something you use in IRB exclusively.
-
+**OOP school library: add basic UI** In this project, I used my newly acquired knowledge and refactor my previous code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
