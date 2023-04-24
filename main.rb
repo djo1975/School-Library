@@ -1,5 +1,5 @@
 require_relative 'app'
-require_relative 'menu'
+require_relative 'main_menu'
 require_relative 'book'
 require_relative 'person'
 require_relative 'rental'
