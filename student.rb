@@ -9,7 +9,7 @@ class Student < Person
   def play_hooky
     '¯\\(ツ)/¯'
   end
-  
+
   def to_h
     {
       id: @id,
