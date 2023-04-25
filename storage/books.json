@@ -8,6 +8,35 @@
         "book_id": 1,
         "person_id": 1,
         "date": "2020-02-02"
+      },
+      {
+        "book_id": 1,
+        "person_id": 1,
+        "date": "2020-05-05"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Dervis",
+    "author": "Simo Lopov",
+    "rentals": [
+      {
+        "book_id": 2,
+        "person_id": 2,
+        "date": "2021-12-01"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Na Drini Cuprija",
+    "author": "Ivo Andric",
+    "rentals": [
+      {
+        "book_id": 3,
+        "person_id": 2,
+        "date": "2020-05-02"
       }
     ]
   }

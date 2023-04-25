@@ -3,8 +3,8 @@ class Book
 
   @id_count = 0
 
-  def initialize(title, author, id)
-    @id = id || self.class.generate_id
+  def initialize(title, author)
+    @id = Book.generate_id
     @title = title
     @author = author
     @rentals = []

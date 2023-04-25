@@ -9,6 +9,11 @@
         "book_id": 1,
         "person_id": 1,
         "date": "2020-02-02"
+      },
+      {
+        "book_id": 1,
+        "person_id": 1,
+        "date": "2020-05-05"
       }
     ]
   },
@@ -18,7 +23,16 @@
     "name": "Komsa Mile",
     "parent_permission": true,
     "rentals": [
-
+      {
+        "book_id": 3,
+        "person_id": 2,
+        "date": "2020-05-02"
+      },
+      {
+        "book_id": 2,
+        "person_id": 2,
+        "date": "2021-12-01"
+      }
     ]
   }
 ]
