@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "age": 22,
+    "name": "Mladan Ilic",
+    "parent_permission": true,
+    "rentals": [
+      {
+        "book_id": 1,
+        "person_id": 1,
+        "date": "2020-02-02"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "age": 33,
+    "name": "Komsa Mile",
+    "parent_permission": true,
+    "rentals": [
+
+    ]
+  }
+]

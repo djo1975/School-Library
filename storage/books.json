@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Kokiko Lopoli",
+    "author": "Mile Disko",
+    "rentals": [
+      {
+        "book_id": 1,
+        "person_id": 1,
+        "date": "2020-02-02"
+      }
+    ]
+  }
+]
