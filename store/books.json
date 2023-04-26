@@ -1,0 +1,14 @@
+[
+  {
+    "id": 729,
+    "title": "Mikiko ",
+    "author": "Kikio Mikiko",
+    "rentals": [
+      {
+        "book_id": 729,
+        "person_id": 2,
+        "date": "2020-02-02"
+      }
+    ]
+  }
+]

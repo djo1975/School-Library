@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "age": 21,
+    "name": "Mile Disko",
+    "parent_permission": false,
+    "rentals": [
+
+    ]
+  },
+  {
+    "id": 2,
+    "age": 44,
+    "name": "Mladjan Ilic",
+    "parent_permission": true,
+    "rentals": [
+      {
+        "book_id": 729,
+        "person_id": 2,
+        "date": "2020-02-02"
+      }
+    ]
+  }
+]

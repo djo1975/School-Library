@@ -1,3 +1,4 @@
+require_relative './student'
 class Classroom
   attr_accessor :label, :students
 
@@ -8,6 +9,6 @@ class Classroom
 
   def add_student(student)
     @students << student
-    student.assign_to_classroom(self)
+    student.classroom = self
   end
 end

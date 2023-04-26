@@ -1,12 +1,8 @@
-# storage.rb
-
 require 'json'
-
 module Storage
-  BOOKS_FILE = 'storage/books.json'.freeze
-  PEOPLE_FILE = 'storage/people.json'.freeze
-  RENTALS_FILE = 'storage/rentals.json'.freeze
-
+  BOOKS_FILE = 'store/books.json'.freeze
+  PEOPLE_FILE = 'store/people.json'.freeze
+  RENTALS_FILE = 'store/rentals.json'.freeze
   def self.read_json(file_path)
     if File.exist?(file_path) && !File.empty?(file_path)
       file = File.read(file_path)
