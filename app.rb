@@ -3,6 +3,7 @@ require_relative 'person'
 require_relative 'teacher'
 require_relative 'student'
 require_relative 'rental'
+require_relative 'input'
 
 # List all books
 def list_books(books)
@@ -24,14 +25,10 @@ end
 
 # Create a person (teacher or student)
 def create_person(people)
-  puts 'Do you want to create a student(1) or a teacher(2)?[Input the number]: '
-  choice = gets.chomp.to_i
-  print 'Enter age: '
-  age = gets.chomp.to_i
-  print 'Enter name: '
-  name = gets.chomp
-  print 'Does the person have parent permission? (y/n): '
-  parent_permission = gets.chomp.downcase == 'y'
+  choice = Input.person_choice
+  age = Input.age
+  name = Input.name
+  parent_permission = Input.parent_permission
 
   case choice
   when 1
@@ -40,7 +37,7 @@ def create_person(people)
     create_teacher(people, age, name, parent_permission)
     return
   else
-    puts 'Invalid choice'
+    handle_invalid_choice
     return
   end
 
@@ -49,8 +46,7 @@ def create_person(people)
 end
 
 def create_teacher(people, age, name, parent_permission)
-  print 'Enter specialization: '
-  specialization = gets.chomp
+  specialization = Input.specialization
   person = Teacher.new(people.length + 1, age, name, parent_permission, specialization)
   people << person
   puts "Created teacher #{person.name}"
@@ -58,10 +54,8 @@ end
 
 # Create a book
 def create_book(books)
-  print 'Enter title: '
-  title = gets.chomp
-  print 'Enter author: '
-  author = gets.chomp
+  title = Input.title
+  author = Input.author
   book = Book.new(title, author)
   books << book
   puts "Created book #{book.title} by #{book.author}"
@@ -69,30 +63,24 @@ end
 
 # Create a rental
 def create_rental(people, books, rentals)
-  puts 'Select a book from the following list by number:'
-  books.each { |book| puts "[#{book.id}] #{book.title} by #{book.author}" }
-  book_id = gets.chomp.to_i
+  book_id = Input.book_id(books)
   book = books.find { |b| b.id == book_id }
 
   return puts 'Book not found' unless book
 
-  puts 'Select a person from the following list by number:'
-  people.each { |person| puts "[#{person.id}] #{person.name} (#{person.class})" }
-  person_id = gets.chomp.to_i
+  person_id = Input.person_id(people)
   person = people.find { |p| p.id == person_id }
 
   return puts 'Person not found' unless person
 
-  print 'Enter the rental date (YYYY-MM-DD): '
-  rental_date = gets.chomp
+  rental_date = Input.rental_date
   rental = Rental.new(person, book, rental_date)
   rentals << rental
   puts "Created rental of '#{book.title}' by #{book.author} to #{person.name} on #{rental_date}"
 end
 
 def list_rentals(people, rentals)
-  puts 'Enter ID of person:'
-  person_id = gets.chomp.to_i
+  person_id = Input.person_id(people)
   person = people.find { |p| p.id == person_id }
   if person.nil?
     puts 'Person not found.'

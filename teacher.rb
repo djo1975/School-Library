@@ -9,4 +9,14 @@ class Teacher < Person
   def can_use_services?
     true
   end
+
+  def to_h
+    {
+      id: @id,
+      age: @age,
+      name: @name,
+      parent_permission: @parent_permission,
+      specialization: @specialization
+    }
+  end
 end
